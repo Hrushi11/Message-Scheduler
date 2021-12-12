@@ -1,0 +1,13 @@
+prefix=F:/Python Projects/Whats_app_mssg_sender/venv/Library
+exec_prefix=F:/Python Projects/Whats_app_mssg_sender/venv/Library
+libdir=F:/Python Projects/Whats_app_mssg_sender/venv/Library/lib
+sharedlibdir=F:/Python Projects/Whats_app_mssg_sender/venv/Library/lib
+includedir=F:/Python Projects/Whats_app_mssg_sender/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
